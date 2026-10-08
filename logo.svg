@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8 -4 192 134">
+  <!-- Nuvyra logo mark (no tile): the folded-ribbon "N". Same drawing as assets/icon.svg. -->
+  <defs>
+    <linearGradient id="ribbon" gradientUnits="userSpaceOnUse" x1="20" y1="110" x2="190" y2="14">
+      <stop offset="0" stop-color="#6366F1"/><stop offset=".5" stop-color="#A78BFA"/><stop offset=".82" stop-color="#E2AECB"/><stop offset="1" stop-color="#FBC9A7"/>
+    </linearGradient>
+    <linearGradient id="fold" gradientUnits="userSpaceOnUse" x1="60" y1="18" x2="124" y2="106">
+      <stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset=".3" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".7" stop-color="#0F172A" stop-opacity="0"/><stop offset="1" stop-color="#0F172A" stop-opacity=".22"/>
+    </linearGradient>
+    <mask id="shape" maskUnits="userSpaceOnUse">
+      <path d="M30 108 L56.2 29.4 Q60 18 67.1 27.7 L116.9 96.3 Q124 106 130.2 95.7 L178 16" fill="none" stroke="#fff" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <g fill="none">
+    <path d="M30 108 L56.2 29.4 Q60 18 67.1 27.7 L116.9 96.3 Q124 106 130.2 95.7 L178 16" stroke="url(#ribbon)" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+    <path mask="url(#shape)" d="M60 18 L124 106" stroke="url(#fold)" stroke-width="58"/>
+  </g>
+</svg>
