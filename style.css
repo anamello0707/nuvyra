@@ -1,4 +1,4 @@
-/* Nuvyra brand: navy #0F172A, indigo #6366F1 (text/links #4F46E5), lavender #A78BFA, peach #FBC9A7, off-white #F8FAFC. Typeface Inter. */
+/* Nortia brand: navy #0F172A, indigo #6366F1 (text/links #4F46E5), lavender #A78BFA, peach #FBC9A7, off-white #F8FAFC. Typeface Inter. */
 @font-face { font-family: "Inter"; font-style: normal; font-weight: 100 900; font-display: swap;
   src: url(fonts/inter-latin-wght-normal.woff2) format("woff2"); }
 :root { --bg: #f8fafc; --panel: #ffffff; --text: #0f172a; --muted: #64748b; --accent: #4f46e5; --line: #e2e8f0; --sunken: #f1f5f9; }
